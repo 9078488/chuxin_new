@@ -9,12 +9,14 @@ const Navbar = () => {
     <header className="bg-white shadow-sm ">
       <div className="flex justify-between items-center px-10 py-4 max-w-7xl">
         {/* Logo */}
-        <div className="flex items-center gap-4">
-          <img src={logo} alt="楚信logo" className="h-15 w-auto" />
-          <span className="text-2xl font-semibold  text-blue-900 tracking-wider">
-            楚信环保
-          </span>
-        </div>
+        <Link to="/">
+          <div className="flex items-center gap-4">
+            <img src={logo} alt="楚信logo" className="h-15 w-auto" />
+            <span className="text-2xl font-semibold  text-blue-900 tracking-wider">
+              楚信环保
+            </span>
+          </div>
+        </Link>
 
         {/* 导航条 */}
         <nav className="flex gap-6">

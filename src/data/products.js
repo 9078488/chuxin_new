@@ -6,7 +6,7 @@ import brazed_phe from '/product_images/brazed_phe.png'
 const products = [
   {
     id: 1,
-    name: '可拆式板式换热器',
+    name: '可拆式换热器',
     image: gasket_phe,
     detail: [
       '板式换热器由框架和数量不等的波纹金属板两个部分组成，框架包括固定挡板、活动挡板、立柱、导杆和几根紧固螺栓。每片板片上都附有相配套的垫片，附有密封垫片的板片构成了一个由多条平行渠道组成的密闭流通系统，介质即在这个密闭系统中间隔交替流过，进行热力交换。',
