@@ -11,8 +11,12 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/">
           <div className="flex items-center gap-4">
-            <img src={logo} alt="楚信logo" className="h-15 w-auto" />
-            <span className="text-2xl font-semibold  text-blue-900 tracking-wider">
+            <img
+              src={logo}
+              alt="楚信logo"
+              className="h-15 w-auto object-contain"
+            />
+            <span className="hidden md:inline text-2xl font-semibold  text-blue-900 tracking-wider">
               楚信环保
             </span>
           </div>
