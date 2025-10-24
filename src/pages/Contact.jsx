@@ -11,9 +11,9 @@ const Contact = () => {
       {/* 右侧主要内容 */}
       <MainLayout>
         <h1 className="font-semibold">{contact.company_name}</h1>
-        <div className="text-base mt-2.5">
+        <div className="text-base text-gray-700 mt-2.5">
           <p className="">电话：{contact.tel}</p>
-          <p>Email：{contact.email}</p>
+          <p>Email:{contact.email}</p>
           <p>地址：{contact.add}</p>
           {/* 网址 */}
           <p>{contact.website}</p>
