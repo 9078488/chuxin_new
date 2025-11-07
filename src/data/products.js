@@ -2,10 +2,11 @@ import gasket_phe from '/product_images/gasket_phe.png'
 import semi_welded_phe from '/product_images/semi_welded_phe.png'
 import plate_shell_phe from '/product_images/plate_shell_phe.png'
 import brazed_phe from '/product_images/brazed_phe.png'
+import { nanoid } from 'nanoid'
 
 const products = [
   {
-    id: 1,
+    id: nanoid(),
     name: '可拆式换热器',
     image: gasket_phe,
     detail: [
@@ -16,7 +17,7 @@ const products = [
     ],
   },
   {
-    id: 2,
+    id: nanoid(),
     name: '半焊式换热器',
     image: semi_welded_phe,
     detail: [
@@ -25,7 +26,7 @@ const products = [
     ],
   },
   {
-    id: 3,
+    id: nanoid(),
     name: '板壳式换热器',
     image: plate_shell_phe,
     detail: [
@@ -35,7 +36,7 @@ const products = [
     ],
   },
   {
-    id: 4,
+    id: nanoid(),
     name: '钎焊式换热器',
     image: brazed_phe,
     detail: [
