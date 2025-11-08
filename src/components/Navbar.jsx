@@ -2,7 +2,6 @@ import { useState } from 'react'
 import logo from '../assets/images/chuxin_logo.png'
 import routes from '../data/routes'
 import { Link, useLocation } from 'react-router-dom'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
@@ -63,7 +62,7 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 z-40">
           <div className="flex flex-col p-4 space-y-2">
             <NavLinks
-              className="flex flex-col space-y-1 items-center"
+              className="flex flex-col space-y-5 items-center"
               onClick={() => setIsOpen(false)} // 点击后关闭菜单
             />
           </div>
