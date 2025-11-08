@@ -24,7 +24,7 @@ const Aside = ({ selectedProduct, setSelectedProduct }) => {
             >
               <button>{product.name}</button>
               {product.id == selectedProduct.id && (
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-black"></span>
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-900"></span>
               )}
             </li>
           ))}
