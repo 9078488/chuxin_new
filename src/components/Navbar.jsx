@@ -52,9 +52,9 @@ const Navbar = () => {
           onClick={() => {
             setIsOpen(!isOpen)
           }}
-          className="md:hidden"
+          className="md:hidden "
         >
-          <GiHamburgerMenu />
+          <GiHamburgerMenu className=" text-blue-900 h-8.5 w-auto" />
         </button>
       </div>
       {/* 手机端下拉菜单 (小于 md 屏幕时显示) */}
@@ -63,7 +63,7 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 z-40">
           <div className="flex flex-col p-4 space-y-2">
             <NavLinks
-              className="flex flex-col space-y-1"
+              className="flex flex-col space-y-1 items-center"
               onClick={() => setIsOpen(false)} // 点击后关闭菜单
             />
           </div>
