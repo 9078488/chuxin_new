@@ -28,14 +28,14 @@ const Navbar = () => {
 
   return (
     <header className="bg-white shadow-sm relative">
-      <div className="flex justify-between items-center px-10 py-4 max-w-7xl">
+      <div className="flex justify-between items-center px-10 py-2.5 md:py-4 max-w-7xl">
         {/* Logo */}
         <Link to="/">
           <div className="flex items-center gap-4">
             <img
               src={logo}
               alt="楚信logo"
-              className="h-15 w-auto object-contain"
+              className="h-10 md:h-15 w-auto object-contain"
             />
             <span className="hidden md:inline text-2xl font-semibold  text-blue-900 tracking-wider">
               楚信环保
@@ -53,7 +53,7 @@ const Navbar = () => {
           }}
           className="md:hidden "
         >
-          <GiHamburgerMenu className=" text-blue-900 h-8.5 w-auto" />
+          <GiHamburgerMenu className=" text-blue-900 h-8 w-auto " />
         </button>
       </div>
       {/* 手机端下拉菜单 (小于 md 屏幕时显示) */}
